@@ -11,6 +11,7 @@ Hello World 1
    :caption: System Requirements
 
    ./src/testing.rst
+   /src/requirements.rst
 
 Indices and tables
 ==================
