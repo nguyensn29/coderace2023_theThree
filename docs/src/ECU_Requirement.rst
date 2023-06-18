@@ -98,12 +98,6 @@ System Non Functional Requirements
    language>
 
    .. verify:: verify629014
-   Non Func Test Environment:
-   Test Bench/Lab-car with hardware setup
-
-   Success Criteria: Verify whether the signal value is correct or not
-
-   .. verify:: verify629014
 
       Non Func Test Environment:
       Test Bench/Lab-car with hardware setup
