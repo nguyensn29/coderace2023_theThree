@@ -9,100 +9,93 @@ General Overview / Document Scope
 Document Scope
 **************
 
-.. sw_req:: 
+.. sw_req::
    :id: 629016
    :artifact_type: Information
 
-   
-   <put below a first description of the scope for ECU requirement
-   specification>
+<put below a first description of the scope for ECU requirement
+specification>
 
 
 Document Specific Glossary
 **************************
 
-.. sw_req:: 
+.. sw_req::
    :id: 629013
    :artifact_type: Information
 
-   
-   <put below a definition of first glossary specific terms>
+<put below a definition of first glossary specific terms>
 
 
 System Requirement
 ******************
 
-.. sw_req:: 
+.. sw_req::
    :id: 629017
    :artifact_type: Information
 
-   
-   | <infos relevant for the complete chapter>
-   | Note to the template:
-   | - the example requirements below are independent of each other and
-     are showing the different possibilities of the requirements
-     structure
+<infos relevant for the complete chapter>
+Note to the template:
+- the example requirements below are independent of each other and are
+showing the different possibilities of the requirements structure
 
 
 ECU 1st Requirement
 *******************
 
-.. sw_req:: 
-   :status: NEW/CHANGED
+.. sw_req::
    :id: 629015
-   :safety_level: ASIL A
-   :artifact_type: MO_FUNC_REQ
-   :crq: RQONE03587423
+   :artifact_type: 
+   :crq: crq
+   :createdOn: 2019-10-08T06:18:45.662Z
 
-   
-   <description of the requirement in requirements language>
+<description of the requirement in requirements language>
 
-   | **VEHICLE_SYSTEM_BEHAVIOUR**
-   | <Optional: description of desired vehicle behaviour ("development
-     target")>    
-   | **CONSTRAINT  **  
-   | <Optional: constraints on the solution space for the requirement>
-   | **IMPACT **   
-   | <Optional: description of possible cross-functional impact of the
-     requirement, or impact on other components>
-   | **INFO**
-   | <Optional: additional informations about the requirement:
-   | - know-how
-   | - background
-   | - HW dependencies related to the system requirement
-   | - internal signals
-   | - etc>
-   | **ASSUMPTION**
-   | <Optional: assumptions on the requirement>
-
-    
+**VEHICLE_SYSTEM_BEHAVIOUR**
+<Optional: description of desired vehicle behaviour ("development
+target")>
+**CONSTRAINT **
+<Optional: constraints on the solution space for the requirement>
+**IMPACT **
+<Optional: description of possible cross-functional impact of the
+requirement, or impact on other components>
+**INFO**
+<Optional: additional informations about the requirement:
+- know-how
+- background
+- HW dependencies related to the system requirement
+- internal signals
+- etc>
+**ASSUMPTION**
+<Optional: assumptions on the requirement>
 
 
-   .. verify:: 
 
-      Test Environment:
-      Test Bench/Lab-car with hardware setup
-      
-      Success Criteria: Verify whether the signal value is correct or not
+   .. verify::
+Test Environment:
+Test Bench/Lab-car with hardware setup
+
+Success Criteria: Verify whether the signal value is correct or not
+   .. safety_level::
+ASIL A
 
 System Non Fonctional Requirements
 **********************************
 
-.. sw_req:: 
-   :status: NEW/CHANGED
+.. sw_req::
    :id: 629014
-   :safety_level: ASIL B
-   :artifact_type: MO_NON_FUNC_REQ
-   :crq: RQONE03587423
+   :artifact_type: 
+   :crq: crq
+   :createdOn: 2019-10-08T06:18:45.677Z
 
-   
-   <description of the non functional requirement in requirements
-   language>
+<description of the non functional requirement in requirements
+language>
 
+   .. verify::
+Non Func Test Environment:
+Test Bench/Lab-car with hardware setup
 
-   .. verify:: 
+Success Criteria: Verify whether the signal value is correct or not
+   .. safety_level::
+ASIL B
 
-      Non Func Test Environment:
-      Test Bench/Lab-car with hardware setup
-      
-      Success Criteria: Verify whether the signal value is correct or not
