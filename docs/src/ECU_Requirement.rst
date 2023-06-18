@@ -31,11 +31,11 @@ Document Specific Glossary
 .. sw_req:: <infos relevant for the complete chapter>
    :id: 629017
    :artifact_type: Information
-
-  | <infos relevant for the complete chapter>
-  | Note to the template:
-  | - the example requirements below are independent of each other and are
-  | showing the different possibilities of the requirements structure
+   
+   | <infos relevant for the complete chapter>
+   | Note to the template:
+   | - the example requirements below are independent of each other and are
+   | showing the different possibilities of the requirements structure
 
 
 ECU 1st Requirement
@@ -49,15 +49,15 @@ ECU 1st Requirement
    :safety_level: ASIL A
    
 
-   
-   <description of the requirement in requirements language>
+
+   | <description of the requirement in requirements language>
 
    | **VEHICLE_SYSTEM_BEHAVIOUR**
    | <Optional: description of desired vehicle behaviour ("development
-     target")>    
-   | **CONSTRAINT  **  
+     target")>
+   | **CONSTRAINT**
    | <Optional: constraints on the solution space for the requirement>
-   | **IMPACT **   
+   | **IMPACT**
    | <Optional: description of possible cross-functional impact of the
      requirement, or impact on other components>
    | **INFO**
@@ -70,14 +70,10 @@ ECU 1st Requirement
    | **ASSUMPTION**
    | <Optional: assumptions on the requirement>
 
-    
+   | 
 
    
    .. verify:: verify629015
-      Test Environment:
-      Test Bench/Lab-car with hardware setup
-      
-      Success Criteria: Verify whether the signal value is correct or not
 
       Test Environment:
       Test Bench/Lab-car with hardware setup
