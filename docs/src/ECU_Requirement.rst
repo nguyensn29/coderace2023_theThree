@@ -27,8 +27,6 @@ Document Specific Glossary
    <put below a definition of first glossary specific terms>
 
 
-System Requirement
-******************
 
 .. sw_req:: infos relevant for the complete chapter
    :id: 629017
@@ -81,7 +79,12 @@ ECU 1st Requirement
       
       Success Criteria: Verify whether the signal value is correct or not
 
-System Non Fonctional Requirements
+      Test Environment:
+      Test Bench/Lab-car with hardware setup
+      
+      Success Criteria: Verify whether the signal value is correct or not
+
+System Non Functional Requirements
 **********************************
 
 .. sw_req:: <description of the non functional requirement in requirements language>
@@ -100,3 +103,10 @@ System Non Fonctional Requirements
 
    Success Criteria: Verify whether the signal value is correct or not
 
+   .. verify:: VERIFY629014
+      :style: blue
+
+      Non Func Test Environment:
+      Test Bench/Lab-car with hardware setup
+      
+      Success Criteria: Verify whether the signal value is correct or not
