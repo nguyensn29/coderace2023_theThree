@@ -36,7 +36,7 @@ master_doc = 'index'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'alabaster'
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 needs_types = [
     dict(directive="sys_req", title="System Requirement",
@@ -47,5 +47,5 @@ needs_types = [
          prefix="VC_", color="#fedcd2", style="artifact")
 ]
 
-needs_extra_options = ['created_by', 'url',  'date', 'time',  'safety_level',  'artifact_type', 'crq',
-                       'test_level']
+needs_extra_options = ['created_by', 'url',  'date', 'time',
+                       'safety_level',  'artifact_type', 'crq', 'createdon', 'test_level']
