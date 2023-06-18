@@ -9,7 +9,7 @@ General Overview / Document Scope
 Document Scope
 **************
 
-.. sw_req:: put below a first description of the scope for ECU requirement specification
+.. sw_req:: <put below a first description of the scope for ECU requirement specification>
    :id: 629016
    :artifact_type: Information
    
@@ -28,7 +28,7 @@ Document Specific Glossary
 
 
 
-.. sw_req:: infos relevant for the complete chapter
+.. sw_req:: <infos relevant for the complete chapter>
    :id: 629017
    :artifact_type: Information
 
@@ -41,7 +41,7 @@ Document Specific Glossary
 ECU 1st Requirement
 *******************
 
-.. sw_req:: description of the requirement in requirements language
+.. sw_req:: <description of the requirement in requirements language>
    :id: 629015
    :artifact_type: 
    :crq: crq
@@ -103,8 +103,7 @@ System Non Functional Requirements
 
    Success Criteria: Verify whether the signal value is correct or not
 
-   .. verify:: VERIFY629014
-      :style: blue
+   .. verify:: verify629014
 
       Non Func Test Environment:
       Test Bench/Lab-car with hardware setup
