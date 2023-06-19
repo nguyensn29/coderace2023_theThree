@@ -13,7 +13,7 @@ Document Scope
    :id: 629016
    :artifact_type: Information
    
-   <put below a first description of the scope for ECU requirement
+   <put below a first description of the scope for ECU requirement - updated
    specification>
 
 
